@@ -1,0 +1,36 @@
+.search-wrapper {
+  width: 100%;
+  position: relative;
+
+  input {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+}
+
+.search-result-wrapper {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  left: 0;
+
+  &.hide {
+    display: none;
+  }
+
+  ul {
+    padding-left: 15px;
+  }
+
+  li {
+    list-style-type: none;
+    a {
+      margin: 7px 0;
+      display: inline-block;
+      &:hover {
+        opacity: .7;
+      }
+    }
+  }
+}
